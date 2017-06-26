@@ -1,0 +1,15 @@
+# humanstxt.org/
+
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
+
+
+    This website was built using Intializer to create the template from Bootstrap and the framework from HTML Boilerplate.
+    This website was modified by Laurentia Wehmeyer from The Digital Factory (www.thedigitalfactory.nl)

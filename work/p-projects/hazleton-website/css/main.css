@@ -1,0 +1,239 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+h1, h2, h3, h4, h5, h6 {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #bf2128;
+}
+
+
+body, html {
+        font-family: 'Open Sans', sans-serif;
+}
+
+body {
+                padding-top: 70px;
+                padding-bottom: 20px;
+            }
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.top-bar li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.top-bar ul {
+    list-style: none;
+    padding-right: 0;
+}
+
+.top-bar {
+    color:#bf2128;
+}
+
+.top-bar a {
+    color:#bf2128;
+}
+
+
+.jumbotron {
+    background-color: #f8bf53;
+}
+
+.jumbotron h1 {
+    color: #bf2128;
+}
+
+#product.jumbotron{
+    background-color: #e6e2db;
+}
+
+.product-list li {
+    font-size: 16px;
+}
+
+#text .jumbotron p {
+    font-size: 16px;
+}
+.features .glyphicon {
+    font-size: 32px;
+    color: #bf2128;
+}
+
+.awards a {
+    color: #333;
+}
+
+.submersible img {
+    padding-left: 50px;
+}
+
+
+img {
+    padding: 5px;
+}
+
+
+footer {
+    background-color: #bf2128;
+    color: #fff;
+    padding: 15px 0 5px;
+    margin-top: 20px;
+}
+
+.address ul {
+    list-style: none;
+    padding-right: 0;
+    margin-top: 25px;
+}
+
+
+.address a {
+    color: #bf2128;
+}
+
+#service.jumbotron{
+    background-color: #bf2128;
+}
+
+
+#service.jumbotron h1 {
+    color: #f8bf53;
+}
+
+#service.jumbotron p{
+     color: #fff;
+}
+
+.navbar {
+    background-color: #bf2128;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.navbar-toggle .icon-bar {
+  background: #fff; /* Change color for horizontal lines */
+}
+
+.navbar-fixed-top, .navbar-collapse {
+    padding-right: 15px;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus,
+.nav > li > a:hover {
+    background-color: #f8bf53;
+}
+
+/*contact form */
+.introform {
+  width: 95%;
+  margin: auto;
+}
+
+#cform {
+  width: 90%;
+  border: solid #f8bf53 2px;
+  margin: 15px;
+}
+
+h4 {
+  color: #bf2128;
+  font-size: 1.5em;
+  margin: 25px 0 15px;
+}
+
+#wrap {
+  margin: auto;
+  width: 90%;
+  padding: 5px;
+}
+
+form {
+  padding: 0;
+  margin: 0 0 20px;
+}
+input, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+}
+.error[generated=true] {
+  color: #bf2128;
+  font-size: 1em;
+  padding: 5px 0 2px 5px;
+}
+.error {
+  padding: 0;
+}
+input, textarea {
+  bottom: 2px solid #e6e2db;
+  font: inherit;
+  font-size: 0.8em;
+  padding: 5px 10px;
+  width: 100%;
+  box-sizing: border-box
+}
+input:focus, textarea:focus {
+  border-color: #f8bf53;
+  outline: none;
+}
+textarea {
+  height: 140px;
+  resize: vertical;
+  margin-bottom: 5px;
+}
+input[type=submit] {
+  background: #bf2128;
+  color: #FFF;
+  font: inherit;
+  padding: 7px 20px;
+  width: auto;
+}
+
+#response {
+  margin-bottom: 20px;
+  text-align: center;
+}
+#response .success {
+  color: #f8bf53;
+}
+#response .failure {
+  color:  #e6e2db;
+}
+
+
+/*contact form for desktops*/
+@media (min-width:940px) {
+
+#cform {
+  width: 50%;
+  float: left;
+}
+
+#first-col {
+  width:48%;
+  float: left;
+  padding-right: 5px;
+}
+
+#second-col {
+  width: 48%;
+  float: left;
+}
+}

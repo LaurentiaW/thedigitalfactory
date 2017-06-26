@@ -1,0 +1,194 @@
+body {
+     font-family: 'Sanchez', serif;
+    text-transform: uppercase;
+    max-width: 540px;
+    margin: auto;
+}
+
+h1 {
+    font-size:36px;
+}
+h2 {
+    font-size:105px;
+}
+
+h3 {
+    font-size:62px;
+}
+
+h4 {
+    font-size:30px;
+}
+
+h5 {
+    font-size:28px;
+}
+
+h6 {
+    font-size:24px;
+}
+p {
+    font-size:18px;
+}
+
+.this h1 {
+    float: left;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    width: 265px;
+}
+
+.life h2{
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 110px;
+}
+
+.do p {
+    width: 260px;
+    float: left;
+    margin-top: -60px;
+    margin-left: 5px;
+    margin-bottom: -10px;
+    font-size: 23px;
+}
+
+.do span {
+    font-size: 27px;
+}
+
+.if {
+    margin-top: -10px;
+    text-align: justify;
+}
+
+
+ .if h6 {
+    font-size: 22px;
+    margin: 0 0;
+ }
+.if h5 {
+      margin: 0 0;
+}
+
+.if p{
+    margin: 0 0;
+}
+
+.if h4 {
+    margin: 0 0;
+}
+
+.stop {
+    width: 308px;
+    float: left
+}
+
+.stop h6 span {
+    font-size: 36px;
+}
+.stop h6 {
+    margin: 0 0;
+}
+
+
+.all{
+    margin-left: 5px;
+    text-align: justify;
+}
+.all p {
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0 0;
+}
+
+.bite {
+    font-size: 24px;
+}
+
+.eat {
+    font-size: 15px;
+}
+
+.open {
+    clear: both;
+}
+.open p {
+    margin: 0 0;
+    text-align: justify;
+}
+
+.people {
+    font-size: 19px;
+}
+
+.ask {
+    font-size: 16px;
+}
+.share {
+    font-size: 20.7px;
+}
+
+.travel h1 {
+    margin: 0 0;
+    float: left;
+}
+.lost h6 {
+    margin: 0 0 0 15px;
+    float: left;
+    max-width: 220px;
+    font-size: 19px;
+    text-align: justify;
+}
+
+.lost h6 span {
+    font-size: 15px;
+}
+
+.some h5 {
+    text-align: justify;
+    margin: 0 0;
+}
+
+.opportunities {
+    font-size: 18px;
+
+}
+
+.about {
+    font-size: 22px;
+    font-weight: lighter;
+}
+.things {
+    font-size: 24px;
+}
+
+.go {
+    font-size: 29.2px;
+}
+
+.short h3 {
+    width: 235px;
+    margin: 0 5px 0 0;
+    line-height: -5px;
+    float: left
+}
+
+
+.dream {
+    text-align: justify;
+}
+
+.dream h5 {
+    font-size: 30px;
+    margin: 7px 0;
+}
+
+.and {
+    font-size: 45px;
+}
+
+.passion {
+   font-size: 37px;
+}

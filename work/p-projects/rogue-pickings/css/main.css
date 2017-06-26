@@ -1,0 +1,160 @@
+/*****BASE STYLES***/
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, nav, h3, h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px
+    padding: 0px 30px;
+    line-height: 21px
+}
+
+/*** GRID ****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+
+/***HEADER***/
+header {
+    height: 110px;
+}
+
+header h1 {
+    padding: 40px 0;
+    color: #000000;
+    font-size: 30px;
+}
+
+header h1 span {
+    color: #77a46b;
+}
+nav {
+    float: right;
+    padding: 50px 0px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li {
+    font-size: 14px;
+    color: #77a46b;
+    padding-left: 25px;
+}
+
+/****IMAGE****/
+
+#image img {
+    border-top: 2px solid #77a46b;
+    border-bottom: 2px solid #77a46b;
+}
+/****INTRO ****/
+#into .full-width {
+    padding: 24px 0;
+    height: 175px;
+}
+
+#intro h2 {
+    font-size:18px;
+    font-weight: bold;
+    color: #77a46b;
+}
+
+#intro p {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 29px 0;
+}
+
+/****MAIN CONTENT****/
+
+
+#content .full-width {
+    border-top: 1px solid #dedbdc;
+    clear: both;
+    height: 210px;
+}
+
+#content h3 {
+    font-size: 12px;
+    font-weight: bold;
+}
+#specials, #reviews, #contact
+{
+    padding: 30px 0
+}
+#contact,
+#reviews,
+#specials {
+    width: 33%;
+    height: auto;
+    float: left;
+    border-top: 1px solid #eee;
+}
+
+#specials,
+#reviews {
+    border-right: 1px solid #eee;
+}
+
+#specials h3 {
+    padding: 10px 0px;
+}
+#reviews h3,
+#contact h3 {
+    padding: 10px 30px;
+}
+
+#specials p {
+    line-height: 30px;
+    padding: 10px 0;
+    color:#77a466
+
+}
+
+#reviews p {
+    color: #333;
+    line-height: 21px;
+    font-size: 16px;
+    padding: 0 30px;
+}
+
+#contact p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 30px
+}
+
+
+/*****FOOTER***///
+
+footer .full-width {
+        height: 90px;
+}
+
+footer h4 {
+    width: 1200px;
+    clear: both;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 20px 0;
+    text-align: center;
+}
+footer h4 span {
+    color: #77a46b;
+    font-family: 'Dancing Script', cursive;
+    text-transform: lowercase;
+}
